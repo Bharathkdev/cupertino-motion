@@ -17,6 +17,13 @@ const useMacbookStore = create((set) => ({
     // Update the active scale (size selection)
     setScale: (scale) => set({ scale }),
 
+    // Active screen texture source (image or video)
+    // Used to dynamically update the MacBook display content
+    texture: '/videos/feature-1.mp4',
+
+    // Update the active screen texture
+    setTexture: (texture) => set({ texture }),
+
     // Reset product configuration to default values
     // Useful for initial load or future "Reset" actions
     reset: () =>
