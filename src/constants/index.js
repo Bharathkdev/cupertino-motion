@@ -1,10 +1,10 @@
 const navLinks = [
-    { label: "Store" },
-    { label: "Mac" },
-    { label: "iPhone" },
-    { label: "Watch" },
-    { label: "Vision" },
-    { label: "AirPods" },
+    { label: "Store", link: "#" },
+    { label: "Mac", link: "#" },
+    { label: "iPhone", link: "#" },
+    { label: "Watch", link: "#" },
+    { label: "Vision", link: "#" },
+    { label: "AirPods", link: "#" },
 ];
 
 const noChangeParts = [
