@@ -185,7 +185,7 @@ const Features = () => {
                         />
                         <p>
                             <span className="text-white">
-                                {feature.highlight}
+                                {feature.highlight}{" "}
                             </span>
                             {feature.text}
                         </p>
