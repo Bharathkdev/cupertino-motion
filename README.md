@@ -3,6 +3,8 @@
    <p>An immersive Apple-inspired 3D web experience built with React, Three.js & GSAP</p>
 </div>
 
+<img width="1712" height="948" alt="Cupertino Motion" src="https://github.com/user-attachments/assets/c513ba4b-7b1a-417c-acd6-5b3aa68377f0" />
+
 ## 📋 <a name="table">Table of Contents</a>
 
 1. 🤖 [Introduction](#introduction)
