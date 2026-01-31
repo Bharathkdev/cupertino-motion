@@ -1,11 +1,12 @@
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
+import { useMediaQuery } from "react-responsive";
+
 import {
     performanceImages,
     performanceImgPositions,
 } from "../constants/index.js";
-import { useMediaQuery } from "react-responsive";
 
 const Performance = () => {
     // Heavy scroll-based image animations are disabled on smaller screens

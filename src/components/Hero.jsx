@@ -28,6 +28,6 @@ const Hero = () => {
             <p>From $1599 or $133/mo for 12 months</p>
         </section>
     )
-}
+};
 
 export default Hero;

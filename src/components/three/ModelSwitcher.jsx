@@ -1,9 +1,10 @@
 import React, {useRef} from 'react'
 import {PresentationControls} from "@react-three/drei";
-import MacbookModel16 from "../models/Macbook-16.jsx";
-import MacbookModel14 from "../models/Macbook-14.jsx";
 import gsap from "gsap";
 import {useGSAP} from "@gsap/react";
+
+import MacbookModel16 from "../models/Macbook-16.jsx";
+import MacbookModel14 from "../models/Macbook-14.jsx";
 
 /**
  * Animation constants
@@ -129,6 +130,6 @@ const ModelSwitcher = ({ scale, isMobile }) => {
             </PresentationControls>
         </>
     )
-}
+};
 
 export default ModelSwitcher;
