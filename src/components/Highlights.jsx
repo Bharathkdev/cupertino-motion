@@ -29,7 +29,7 @@ const Highlights = () => {
             stagger: 0.5,
 
             // Animation timing and easing
-            duration: 1,
+            duration: 2,
             ease: 'power1.inOut',
         });
     }, []);
